@@ -26,9 +26,7 @@
 	background-size: 300%;
 	width: calc(100% + 16px);
 	height: calc(100% + 16px);
-	z-index: -1;
-	animation: BGgradient 15s ease infinite; 
-}
+	z-index: -1;}
 body{
     background-image: url(https://image.freepik.com/free-photo/gradient-blue-abstract-background-smooth-dark-blue-with-black-vignette-studio_1258-68059.jpg);
     background-size: cover;
@@ -82,19 +80,11 @@ textarea{
     font-family: Inika;
     font-size: 20px;
     font-weight: 400;
-    white-space: nowrap;
-    border-right: 2px solid;
     width: 71ch;
-    animation: typing 4s steps(71),
-    blink .5s infinite step-end ;
-    overflow: hidden;
+    font-size: 30px;
+
 }
-@keyframes typing{
-    from{ width: 0;}
-}
-@keyframes blink{
-    50%{border-color: transparent;}
-}
+
 #text2{
     text-align: center;
     color: black;
@@ -159,7 +149,9 @@ img{
     display: flex;
     justify-content: center; 
     align-items: center; 
-    height: 48vh; 
+    height: 4px; 
+    position: relative;
+    top: 60px;
 }
 #h5{
     width: 700px;
@@ -566,8 +558,21 @@ iframe {
         box-shadow:none;
         margin: auto;
     }
+    .puto{
+        height: 100px ;
+    }
+    .MM{
+        color: black;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Inika;
+        font-size: 30px;
+        position: absolute;
+        left: 32%;
+        top: 15%;
+    }
+    
     body{
-        height: 860px;
+        height: auto;
     }
     #cacadepato:hover{
         box-shadow: none;
@@ -578,7 +583,6 @@ iframe {
         left: 10px;
         width: 10px;
         height: 10px;
-        background-color: red;
     }
     .AppGrat{
         width: 100%;
@@ -596,13 +600,13 @@ iframe {
     }
     .chico{
         margin: auto;
-        width: 74%;
+        width: 90%;
         margin-bottom: 50px;
     }
     .text1{
         color: black;
         font-family: Inika;
-        font-size: 15px;
+        font-size: 18px;
         position: relative;
         left: 12px;
         border-right: 2px solid;
@@ -633,7 +637,7 @@ iframe {
         border-radius: 20px;
         display: flex;
         position: relative;
-        top: 43px;
+        top: 36px;
         left: 60px;
         background: linear-gradient(70deg, blue, pink);
         
@@ -668,7 +672,7 @@ iframe {
         font-size: 15px;
         position: relative;
         top: -148px;
-        left: 40px;
+        left: 60px;
     }
     #h3{
         width: 110px;
@@ -677,7 +681,7 @@ iframe {
         position: relative; 
         top: -148px;
         font-size: 15px;
-        left: 70px;
+        left: 66px;
     }
     a{
         text-decoration: none;
