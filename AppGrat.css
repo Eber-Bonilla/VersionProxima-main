@@ -566,6 +566,9 @@ iframe {
         box-shadow:none;
         margin: auto;
     }
+    body{
+        height: 860px;
+    }
     #cacadepato:hover{
         box-shadow: none;
     }
@@ -658,24 +661,23 @@ iframe {
         top: 25px;
         left: 6px;
     }
-    
     #h5{
-        width: 700px;
+        width: 100px;
         height: 69px;
         text-align: center; 
         font-size: 15px;
         position: relative;
         top: -148px;
-        left: -240px;
+        left: 40px;
     }
     #h3{
-        width: 560px;
+        width: 110px;
         height: 79px;
         text-align: center;
         position: relative; 
         top: -148px;
         font-size: 15px;
-        left: -160px;
+        left: 70px;
     }
     a{
         text-decoration: none;
