@@ -1,18 +1,19 @@
 * {
     padding: 0px; margin: 0px;
 }
-iframe{
-    position: relative;
-    top: 100px;
-}
 .Politica{
     position: absolute;
     left: 82%;
     top: 40%;
-
+}
+iframe{
+    height: 200px;
+    width: 400px;
+    position: relative;
+    left: 300px;
 }
 .mydiv {
-    height: 1000px;
+    height: auto;
     position: relative;
     top: 40px;
     margin: auto; 
@@ -149,14 +150,6 @@ img{
     left: 20px;
 }
 
-.puto{
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    height: 4px; 
-    position: relative;
-    top: 60px;
-}
 #h5{
     width: 700px;
     height: 69px;
