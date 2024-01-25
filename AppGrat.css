@@ -65,7 +65,7 @@ textarea{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Inika;
     font-size: 30px;
-    position: absolute;
+    position: relative;
     left: 43%;
     top: 30%;
 }
