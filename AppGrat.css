@@ -62,7 +62,7 @@ button{
 @media only screen and (max-width: 480px) {
     h1{
         color: white;
-        font-size: 24px;
+        font-size: 28px;
     }
     .pepe{
         width: 100%;
@@ -97,5 +97,10 @@ button{
     img{
         width: 97%;
         height: 200px;
+    }
+    option{
+        color: white;
+        font-weight: bold;
+        background-color: black;
     }
 }
