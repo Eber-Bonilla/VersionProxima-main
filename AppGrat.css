@@ -18,7 +18,7 @@ body{
 }
 h1{
     color: white;
-    font-size: 40px;
+    font-size: 50px;
 }
 p{
     color: white;
@@ -42,5 +42,46 @@ select{
     height: 29px;
 }
 img{
-    width: 100%;
+    width: 70%;
+    height: 300px;
+}
+@media only screen and (max-width: 480px) {
+    h1{
+        color: white;
+        font-size: 20px;
+    }
+    .pepe{
+        width: 100%;
+        height: auto;
+        position: relative;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0 8px 32px 0 rgba(46, 42, 32, 0.37);
+        border-radius: 0%;
+        border: none;
+    }
+    p{
+        color: white;
+        font-size: 13px;
+        text-align: justify;
+        text-align: center;
+    }
+    h2{
+        color: white;
+        font-size: 30px;
+        text-align: justify;
+        text-align: center;
+    }
+    label{
+        color: white;
+        font-size: 20px;
+        text-align: justify;
+        text-align: center;   
+    }
+    select{
+        height: 29px;
+    }
+    img{
+        width: 97%;
+        height: 200px;
+    }
 }
