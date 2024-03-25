@@ -5,7 +5,7 @@ body{
 }
 nav{
     width: 98%;
-    height: 300px;
+    height: auto;
     position: relative;
     background-color: white;
     text-align: center;
@@ -14,13 +14,22 @@ nav{
     box-shadow: 0 8px 32px 0 rgba(46, 42, 32, 0.37);
     border-radius: 16px;
     border: 1px solid rgba(255, 255, 255, 0.18);
-    margin-bottom: 1px;
+    margin-bottom: -30px;
 }
 .mm{
     color: black;
 }
 p{
     color: black;
+}
+h3{
+	color: red;
+}
+button{
+	background-color: #2dca40;
+	border: #038026;
+	color: black;
+	height: 50px;
 }
 						.fbcoms {
                             margin-top: 1px;
