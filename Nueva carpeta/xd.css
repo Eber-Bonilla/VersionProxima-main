@@ -164,4 +164,17 @@ p{
         height: 40px;
         border-radius: 50%;
     }
+    nav{
+        width: 98%;
+        height: 550px;
+        position: relative;
+        background-color: white;
+        text-align: center;
+        margin: 0 auto;
+        background: rgba(255, 255, 255, 1);
+        box-shadow: 0 8px 32px 0 rgba(46, 42, 32, 0.37);
+        border-radius: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        margin-bottom: 1px;
+    }
 }
