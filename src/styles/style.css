@@ -7,10 +7,6 @@
     background-color: rgb(185, 72, 12);
     height: 60px;
 }
-.logo img{
-    width: 15%;
-    max-width: 60px;
-}
 .logo h1{
     font-family: "Itim", cursive;
     font-weight: 400;
