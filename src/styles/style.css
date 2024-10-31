@@ -19,10 +19,12 @@
     width: 80%;
     max-width: 800px;
   }
-  
-  .video {
+  a{
     width: 100%;
     height: auto;
     border: 2px solid #333;
     border-radius: 8px;
+  }
+  .video {
+    width: 100%;
   }
