@@ -1,19 +1,25 @@
 // script.js
-// Asegúrate de que GSAP y ScrollTrigger están cargados correctamente
 gsap.registerPlugin(ScrollTrigger);
 
-// Selecciona todos los videos con la clase .video
 const videos = document.querySelectorAll('video');
 
+// Configura ScrollTrigger para cada video
 videos.forEach((video) => {
-  // Configura ScrollTrigger para cada video
   ScrollTrigger.create({
     trigger: video,
-    start: "top center", // Reproduce cuando el video esté en el centro de la pantalla
+    start: "top center",
     end: "bottom center",
-    onEnter: () => video.play(),
+    onEnter: () => {
+      video.play(); // Reproduce el video
+    },
     onLeave: () => video.pause(),
     onEnterBack: () => video.play(),
     onLeaveBack: () => video.pause(),
   });
+});
+
+// Reproducir el primer video al cargar la página
+window.addEventListener('load', () => {
+  const firstVideo = videos[0]; // Selecciona el primer video
+  firstVideo.play(); // Reproduce el video
 });

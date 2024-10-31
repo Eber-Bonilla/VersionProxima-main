@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/styles/style.css">
+
     <title>proyectx</title>
 </head>
 <body>
     <div class="logo">
         <h1>ProyectX</h1>
     </div>
-    
-    <div class="videos">
-        <a href="https://chatgpt.com/"><video src="src/video/010.mp4"></video></a>
 
-        <a href="https://flexbox.malven.co/"><video src="src/video/010.mp4"></video></a>
 
-        <a href="https://flexbox.malven.co/"><video src="src/video/010.mp4"></video></a>
-
-        <a href="https://flexbox.malven.co/"><video src="src/video/010.mp4"></video></a>
-
-        
+    <div class="video-container">
+        <div class="video-wrapper">
+          <video class="video" src="src/video/010.mp4" muted></video>
+        </div>
+        <div class="video-wrapper">
+            <video class="video" src="src/video/010.mp4" muted></video>
+        </div>
+        <div class="video-wrapper">
+            <video class="video" src="src/video/010.mp4" muted></video>
+        </div>
     </div>
+    
   <script src="src/GSAP-master/dist/gsap.min.js"></script>
   <script src="src/GSAP-master/dist/ScrollTrigger.min.js"></script>
   <script src="src/script/script.js"></script>
